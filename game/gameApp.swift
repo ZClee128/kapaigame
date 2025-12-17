@@ -12,6 +12,7 @@ struct gameApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .preferredColorScheme(.light) // 强制浅色模式
         }
     }
 }
